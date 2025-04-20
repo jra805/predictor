@@ -1,0 +1,26 @@
+# Core dependencies
+ultralytics==8.0.43
+ultralyticsplus==0.0.28
+numpy==1.24.3
+opencv-contrib-python==4.5.5.64
+Pillow>=9.0.0
+
+# Screen capture
+mss==10.0.0
+
+# Data handling
+openpyxl==3.1.5
+
+# PyTorch (required by ultralytics)
+torch>=1.7.0
+torchvision>=0.8.1
+
+# Additional dependencies that may be needed by ultralytics
+matplotlib>=3.3.0
+pyyaml>=5.3.1
+pandas>=1.1.4
+seaborn>=0.11.0
+requests>=2.23.0
+tqdm>=4.41.0
+psutil>=5.9.0
+thop>=0.1.1
